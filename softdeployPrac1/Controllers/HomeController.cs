@@ -9,7 +9,7 @@ namespace softdeployPrac1.Controllers
         [HttpGet]
         public IActionResult GetMessage()
         {
-            return Ok("Hola despliegue continuo, validando conflictos desde Visual Estudio");
+            return Ok("Hola Despliegue, validando conflictos desde VS");
         }
     }
 }
